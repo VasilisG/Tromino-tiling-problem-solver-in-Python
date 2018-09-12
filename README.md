@@ -58,3 +58,4 @@ img.save("tromino.png")
 
 Output:
 
+![alt-text](https://github.com/VasilisG/Tromino-tiling-problem-solver-in-Python/blob/master/tromino.png)
