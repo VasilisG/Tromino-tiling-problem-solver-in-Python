@@ -4,7 +4,7 @@ This is a solver of the tromino tiling problem, based on [Golomb's tromino theor
 ## Tromino.py
 
 The `Tromino.py` file contains two classes, `TrominoSolver` and `GraphicTrominoSolver`, each of them providing the solution,
-based of depth first recursion, for a tromino tiling problem.
+based of depth first recursion, for a tromino tiling problem. It uses the [Pillow](https://pillow.readthedocs.io/en/5.2.x/) library for image creation.
 
 ### TrominoSolver
 
