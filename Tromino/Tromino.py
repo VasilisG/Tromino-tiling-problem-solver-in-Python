@@ -121,6 +121,8 @@ class GraphicTrominoSolver:
             self.graphicSolve(n-1, cX, endX, cY, endY, fourthX, fourthY, img)
 
     def createSolutionImage(self, n, tileX, tileY, imageSize):
+        if n <= 1:
+            print("Invalid 'n' parameter. Must be greater than 1.")
         size = 2**n
         if not self.isWithinBounds(tileX, tileY, 0, 0, size-1, size-1):
             print("Invalid tile coordinates...")
